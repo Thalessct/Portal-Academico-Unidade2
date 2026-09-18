@@ -6,7 +6,7 @@ function verificarSituacao(media) {
         return "Aprovado";
     }
 
-    if (media <= 4) {
+    if (media <= 5) {
         return "Recuperação";
     }
     return "Reprovado";
